@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:gravity="top|center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="9pt"
+        android:textColor="#2a2a2a"
+        android:text="This shows last time Sleep Hours "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="#545454"
+        android:text="This service will keep on displaying sleep time"/>
+
+    <TextView
+        android:id="@+id/sleep_hours"
+        android:textSize="9pt"
+        android:textColor="#2a2a2a"
+        android:text="00:00:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        tools:context=".MainActivity">
+
+    </LinearLayout>
+
+</LinearLayout>
