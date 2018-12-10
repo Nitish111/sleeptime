@@ -104,7 +104,7 @@ public class MyBackgroundService extends JobService {
                                     preference.setLongData(SharedPreference.END_TIME, System.currentTimeMillis());
                                     long diff =  preference.getLongData(SharedPreference.END_TIME) - preference.getLongData(SharedPreference.START_TIME);
 
-                                    if(TimeUnit.MILLISECONDS.toMinutes(diff)>=1)
+                                    if(TimeUnit.MILLISECONDS.toHours(diff)>=2)
                                     {
                                         Date date = new Date(diff);
                                         DateFormat formatter = new SimpleDateFormat("HH:mm:ss");
